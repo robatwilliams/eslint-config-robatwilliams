@@ -9,7 +9,8 @@
   "json.schemas": [
     {
       "fileMatch": [
-        "/index.json"
+        "/index.json",
+        "/config/*.json"
       ],
       "url": "http://json.schemastore.org/eslintrc"
     }

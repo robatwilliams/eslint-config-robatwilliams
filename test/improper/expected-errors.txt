@@ -1,1 +1,1 @@
-  1:19  error  Missing semicolon  semi
+  1:21  error  Missing semicolon  semi

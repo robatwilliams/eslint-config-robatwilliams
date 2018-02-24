@@ -1,5 +1,3 @@
 {
-  "rules": {
-    "semi": ["error", "always"]
-  }
+  "extends": "./config/index.json"
 }

@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__mocks__/*.js",
+        "**/__tests__/*.js"
+      ],
+      "env": {
+        "browser": false,
+        "jest": true
+      }
+    }
+  ]
+}
