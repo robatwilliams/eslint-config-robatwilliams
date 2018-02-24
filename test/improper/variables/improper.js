@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 
-
 const name = 'Robat';
 
 function foo() {
@@ -20,8 +19,6 @@ class NotHoisted {}
 function eventHandler() {
   const target = event.target;
 }
-
-
 
 /* eslint-enable no-unused-vars */
 function unusedParamAfterLastUsed(a, b, unused) {

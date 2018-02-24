@@ -3,22 +3,22 @@
 5:22 error Unexpected parentheses around single function argument arrow-parens
 7:21 error Missing space before => arrow-spacing
 8:26 error Missing space after => arrow-spacing
-18:10 error Unexpected space before * generator-star-spacing
-18:10 error Missing space after * generator-star-spacing
-23:34 error Arrow function used ambiguously with a conditional expression no-confusing-arrow
+10:10 error Unexpected space before * generator-star-spacing
+10:10 error Missing space after * generator-star-spacing
+12:34 error Arrow function used ambiguously with a conditional expression no-confusing-arrow
 4:1 error 'noDuplicateImport' import is duplicated no-duplicate-imports
 2:1 error 'moment' import is restricted from being used. Use date-fns or Luxon instead (not both!) no-restricted-imports
-46:3 error Useless constructor no-useless-constructor
+16:3 error Useless constructor no-useless-constructor
 5:10 error Import a unnecessarily renamed no-useless-rename
-49:1 error Unexpected var, use let or const instead no-var
-52:21 error Expected property shorthand object-shorthand
-55:17 error Unexpected function expression prefer-arrow-callback
-57:5 error 'preferConst' is never reassigned. Use 'const' instead prefer-const
-60:13 error Use the rest parameters instead of 'arguments' prefer-rest-params
-64:1 error Use the spread operator instead of '.apply()' prefer-spread
-72:19 error Unexpected whitespace after spread operator rest-spread-spacing
-73:32 error Unexpected whitespace after rest property operator rest-spread-spacing
-75:27 error Expected Symbol to have a description symbol-description
-78:28 error Unexpected space(s) after '${' template-curly-spacing
-83:9 error Unexpected space before * yield-star-spacing
-83:9 error Missing space after * yield-star-spacing
+19:1 error Unexpected var, use let or const instead no-var
+22:21 error Expected property shorthand object-shorthand
+25:17 error Unexpected function expression prefer-arrow-callback
+27:5 error 'preferConst' is never reassigned. Use 'const' instead prefer-const
+30:13 error Use the rest parameters instead of 'arguments' prefer-rest-params
+34:1 error Use the spread operator instead of '.apply()' prefer-spread
+38:19 error Unexpected whitespace after spread operator rest-spread-spacing
+39:32 error Unexpected whitespace after rest property operator rest-spread-spacing
+41:27 error Expected Symbol to have a description symbol-description
+44:28 error Unexpected space(s) after '${' template-curly-spacing
+49:9 error Unexpected space before * yield-star-spacing
+49:9 error Missing space after * yield-star-spacing

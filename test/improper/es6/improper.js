@@ -7,39 +7,9 @@ const unnecessary3 = (x) => x;
 const badlySpaced = x=> x;
 const badlySpaced2 = x =>x;
 
-
-
-
-
-
-
-
-
 function *badlySpacedGenerator() {}
 
-
-
-
 const isItAComparisonOrALambda = a => Math.random() ? 2 : 3;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 class UselessConstructor {
 
@@ -62,10 +32,6 @@ function preferRestOverArguments() {
 
 const preferSpreadOverApply = [1, 2, 3];
 Math.max.apply(Math, preferSpreadOverApply);
-
-
-
-
 
 const toBeSpread = [1, 2, 3];
 const callWithSpread = () => true;
