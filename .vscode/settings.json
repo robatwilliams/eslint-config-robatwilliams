@@ -1,0 +1,17 @@
+{
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/index.json"
+      ],
+      "url": "http://json.schemastore.org/eslintrc"
+    }
+  ]
+}

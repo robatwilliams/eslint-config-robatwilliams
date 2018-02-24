@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-robatwilliams",
+  "version": "0.1.0",
+  "description": "ESLint rules I like to use",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.json",
+  "scripts": {
+    "lint:fail": "sh ./test/improper/test.sh",
+    "lint:pass": "eslint --config index.json test/reference/",
+    "test": "npm run --silent lint:pass && npm --silent run lint:fail"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  }
+}
