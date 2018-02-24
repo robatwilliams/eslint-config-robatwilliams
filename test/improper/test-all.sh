@@ -7,4 +7,5 @@ function test {
 }
 
 test strict-mode/ && \
+test stylistic/ && \
 test variables/

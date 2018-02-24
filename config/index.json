@@ -3,9 +3,7 @@
     "eslint:recommended",
     "./non-rules.json",
     "./strict-mode.json",
+    "./stylistic.json",
     "./variables.json"
-  ],
-  "rules": {
-    "semi": ["error", "always"]
-  }
+  ]
 }

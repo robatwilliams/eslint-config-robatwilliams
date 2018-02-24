@@ -1,4 +1,3 @@
-4:21 error Missing semicolon semi
 7:9 error 'name' is already declared in the upper scope no-shadow
 10:7 error Shadowing of global property 'NaN' no-shadow-restricted-names
 12:5 error It's not necessary to initialize 'pointlessInit' to undefined no-undef-init

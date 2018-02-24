@@ -1,0 +1,6 @@
+{
+  // https://eslint.org/docs/rules/#stylistic-issues
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}

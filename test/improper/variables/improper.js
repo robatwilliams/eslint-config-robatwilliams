@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 
-const name = 'Robat'
+const name = 'Robat';
 
 function foo() {
   const name = 'shadowing';
