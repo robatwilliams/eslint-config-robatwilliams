@@ -9,7 +9,7 @@
   "license": "UNLICENSED",
   "main": "index.json",
   "scripts": {
-    "lint:fail": "sh ./test/improper/test.sh",
+    "lint:fail": "sh ./test/improper/test-all.sh",
     "lint:pass": "eslint --config index.json test/reference/",
     "test": "npm run --silent lint:pass && npm --silent run lint:fail"
   },
