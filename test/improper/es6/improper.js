@@ -27,7 +27,7 @@ cantReassign = 2;
 
 class SameNameMembers {
   bar() { }
-  get bar() { }
+  get bar() { return true; }
 }
 
 const noNewSymbol = new Symbol('noNewSymbol');

@@ -15,3 +15,13 @@ acceptsCallback(function namedCallbackToDocumentWhatItDoes() {});
 
 const world = 'world';
 const doesntNeedTemplateLiteral = 'Hello, ' + world;
+
+const supriousThrower = () => undefined;
+try {
+  supriousThrower();
+} catch (error) {
+  // ignore spurious error
+}
+
+const parensMakeItClearer = (1 + 2) + 3;
+const parensHelpWithComplicatedCondition = (Math.random > 0.5) ? 1 : 0;

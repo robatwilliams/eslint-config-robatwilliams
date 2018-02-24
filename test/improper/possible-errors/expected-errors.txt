@@ -1,0 +1,2 @@
+4:10 error Expected to return a value in getter 'foo' getter-return
+8:23 error Unexpected template string expression no-template-curly-in-string

@@ -7,6 +7,7 @@ function test {
 }
 
 test es6/ && \
+test possible-errors/ && \
 test strict-mode/ && \
 test stylistic/ && \
 test variables/

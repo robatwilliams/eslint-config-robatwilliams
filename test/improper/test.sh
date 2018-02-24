@@ -22,7 +22,7 @@ missingExpected=$?
 # Ignore everything except the error lines
 echo "$lintOutput" \
   | grep '^[0-9]' \
-  | head -n -1 \
+  | grep -v 'warnings potentially fixable with the' \
   | grep -vxFf $subDir/expected-errors.txt
 presentUnexpected=$?
 
