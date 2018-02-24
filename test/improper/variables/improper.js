@@ -21,7 +21,7 @@ function eventHandler() {
   const target = event.target;
 }
 
-undeclaredFunction();
+
 
 /* eslint-enable no-unused-vars */
 function unusedParamAfterLastUsed(a, b, unused) {
