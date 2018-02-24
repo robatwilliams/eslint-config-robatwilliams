@@ -3,7 +3,7 @@
 # Remove padding spaces from output, as they'll vary based on longest error message
 lintOutput="$(\
   ./node_modules/.bin/eslint --config index.json --no-color test/improper/ \
-  | sed 's/^  //' \
+  | sed 's/^  *//' \
   | tr --squeeze-repeats ' ' \
 )"
 

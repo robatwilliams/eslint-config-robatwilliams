@@ -1,6 +1,22 @@
 {
   // https://eslint.org/docs/rules/#variables
   "rules": {
-    "no-shadow": "error"
+    "no-restricted-globals": ["error",
+      {
+        "name": "event",
+        "message": "Use local parameter instead."
+      }
+    ],
+    "no-shadow": "error",
+    "no-shadow-restricted-names": "error",
+    "no-undef-init": "error",
+    "no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "after-used",
+      "ignoreRestSiblings": true // useful to omit props when propagating in React
+    }],
+    "no-use-before-define": ["error", {
+      "functions": false  // they're hoisted, so it's safe
+    }]
   }
 }
