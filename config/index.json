@@ -1,7 +1,10 @@
 {
   "extends": [
     "eslint:recommended",
+    "./best-practices.json",
+    "./es6.json",
     "./non-rules.json",
+    "./possible-errors.json",
     "./strict-mode.json",
     "./stylistic.json",
     "./variables.json"
