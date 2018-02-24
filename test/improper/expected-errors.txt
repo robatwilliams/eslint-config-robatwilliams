@@ -1,1 +1,2 @@
-  1:21  error  Missing semicolon  semi
+1:1 error 'use strict' is unnecessary inside of modules strict
+3:21 error Missing semicolon semi

@@ -2,6 +2,10 @@
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
 
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,

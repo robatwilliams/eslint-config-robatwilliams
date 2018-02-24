@@ -2,6 +2,8 @@
 
 # grep: find present expected errors, then use those to find any missing expected ones
 ./node_modules/.bin/eslint --config index.json --no-color test/improper/ \
+  | sed 's/^  //' \
+  | tr --squeeze-repeats ' ' \
   | grep -oxFf test/improper/expected-errors.txt \
   | grep -vxFf - test/improper/expected-errors.txt
 

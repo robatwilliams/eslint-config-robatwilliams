@@ -1,7 +1,8 @@
 {
   "extends": [
     "eslint:recommended",
-    "./non-rules.json"
+    "./non-rules.json",
+    "./strict-mode.json"
   ],
   "rules": {
     "semi": ["error", "always"]
