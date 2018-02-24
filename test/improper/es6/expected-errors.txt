@@ -1,0 +1,32 @@
+2:26 error Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>` arrow-body-style
+3:27 error Unexpected block statement surrounding arrow body; parenthesize the returned value and move it immediately after the `=>` arrow-body-style
+5:22 error Unexpected parentheses around single function argument arrow-parens
+7:21 error Missing space before => arrow-spacing
+8:26 error Missing space after => arrow-spacing
+13:3 error Expected to call 'super()' constructor-super
+14:5 error 'this' is not allowed before 'super()' no-this-before-super
+18:10 error Unexpected space before * generator-star-spacing
+18:10 error Missing space after * generator-star-spacing
+21:1 error 'CantReassign' is a class no-class-assign
+23:34 error Arrow function used ambiguously with a conditional expression no-confusing-arrow
+26:1 error 'cantReassign' is constant no-const-assign
+30:3 error Duplicate name 'bar' no-dupe-class-members
+4:1 error 'noDuplicateImport' import is duplicated no-duplicate-imports
+33:25 error `Symbol` cannot be called as a constructor no-new-symbol
+2:1 error 'moment' import is restricted from being used. Use date-fns or Luxon instead (not both!) no-restricted-imports
+39:5 error 'this' is not allowed before 'super()' no-this-before-super
+46:3 error Useless constructor no-useless-constructor
+5:10 error Import a unnecessarily renamed no-useless-rename
+49:1 error Unexpected var, use let or const instead no-var
+52:21 error Expected property shorthand object-shorthand
+55:17 error Unexpected function expression prefer-arrow-callback
+57:5 error 'preferConst' is never reassigned. Use 'const' instead prefer-const
+60:13 error Use the rest parameters instead of 'arguments' prefer-rest-params
+64:1 error Use the spread operator instead of '.apply()' prefer-spread
+66:1 error This generator function does not have 'yield' require-yield
+72:19 error Unexpected whitespace after spread operator rest-spread-spacing
+73:32 error Unexpected whitespace after rest property operator rest-spread-spacing
+75:27 error Expected Symbol to have a description symbol-description
+78:28 error Unexpected space(s) after '${' template-curly-spacing
+83:9 error Unexpected space before * yield-star-spacing
+83:9 error Missing space after * yield-star-spacing

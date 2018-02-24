@@ -9,7 +9,7 @@ function foo() {
 
 const NaN = 1;
 
-let pointlessInit = undefined;
+let pointlessInit = undefined;  // eslint-disable-line prefer-const
 
 const definedFirst = definedSecond;
 const definedSecond = true;
