@@ -1,0 +1,6 @@
+{
+  // https://eslint.org/docs/rules/#variables
+  "rules": {
+    "no-shadow": "error"
+  }
+}

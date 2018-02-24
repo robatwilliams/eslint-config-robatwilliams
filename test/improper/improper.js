@@ -1,3 +1,8 @@
+/* eslint-disable no-unused-vars */
 'use strict';
 
-const name = 'Robat'  // eslint-disable-line no-unused-vars
+const name = 'Robat'
+
+function foo() {
+  const name = 'shadowing';
+}
