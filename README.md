@@ -8,10 +8,12 @@ The settings for core rules are organised as per the sections of the [rules page
 
 The tests are not comprehensive - removing or changing a rule won't necessarily cause a test failure. They're typically not included for rules inherited from `eslint-recommended`. The `reference` tests include cases which demonstrate why certain rules/options are not enabled. All rules are applied to specific sections' tests for greater coverage and detection of conflicting rules (although they are disabled where cumbersome or cause tedious changes to expected errors).
 
+## Plugins included
+* [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+
 ## Backlog
 * [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 * [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
-* [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 
 ## See also
 * [awesome-eslint](https://github.com/dustinspecker/awesome-eslint)

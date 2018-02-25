@@ -14,10 +14,12 @@
     "test": "npm run --silent lint:pass && npm --silent run lint:fail"
   },
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">= 4",
+    "eslint-plugin-import": "^2.9.0"
   },
   "devDependencies": {
-    "eslint": "^4.18.1"
+    "eslint": "^4.18.1",
+    "eslint-plugin-import": "^2.9.0"
   },
   "engines": {
     "node": ">= 8",

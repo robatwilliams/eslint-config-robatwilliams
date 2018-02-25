@@ -1,6 +1,7 @@
 {
   "extends": [
     "eslint:recommended",
+    "./plugins/import/index.json",
     "./best-practices.json",
     "./es6.json",
     "./non-rules.json",
