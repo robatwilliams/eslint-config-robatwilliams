@@ -6,7 +6,7 @@ Although it's shareable, it's probably not granular enough to be truly reusable 
 
 The settings for core rules are organised as per the sections of the [rules page](https://eslint.org/docs/rules) of the documentation, which [may change](https://github.com/eslint/eslint/issues/7991).
 
-The tests are not comprehensive - removing or changing a rule won't necessarily cause a test failure. They're typically not included for rules inherited from `eslint-recommended`. The `reference` tests include cases which demonstrate why certain rules/options are not enabled.
+The tests are not comprehensive - removing or changing a rule won't necessarily cause a test failure. They're typically not included for rules inherited from `eslint-recommended`. The `reference` tests include cases which demonstrate why certain rules/options are not enabled. All rules are applied to specific sections' tests for greater coverage and detection of conflicting rules (although they are disabled where cumbersome or cause tedious changes to expected errors).
 
 ## Backlog
 * [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)

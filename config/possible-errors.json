@@ -1,5 +1,6 @@
 {
   // https://eslint.org/docs/rules/#possible-errors
+  // Most of these are enabled by eslint:recommended, so not many here
   "rules": {
     "getter-return": "error",
     "no-await-in-loop": "error",
