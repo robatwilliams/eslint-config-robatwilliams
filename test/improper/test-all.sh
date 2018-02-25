@@ -11,4 +11,5 @@ test es6/ && \
 test possible-errors/ && \
 test strict-mode/ && \
 test stylistic/ && \
-test variables/
+test variables/ && \
+test plugins/import/style-guide/

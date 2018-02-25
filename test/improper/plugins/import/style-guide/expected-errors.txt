@@ -1,0 +1,8 @@
+1:1 error Expected 1 empty line after import statement not followed by another import import/newline-after-import
+1:17 error Unexpected use of file extension "js" for "./foo.js" import/extensions
+2:1 error Import in body of module; reorder to top import/first
+1:1 error Imported module should be assigned import/no-unassigned-import
+1:19 error './foo' imported multiple times import/no-duplicates
+2:1 error './foo' import is duplicated no-duplicate-imports
+2:19 error './foo' imported multiple times import/no-duplicates
+2:21 error Use default import syntax to import 'foo' import/no-named-default
