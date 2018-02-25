@@ -6,10 +6,7 @@
 10:10 error Unexpected space before * generator-star-spacing
 10:10 error Missing space after * generator-star-spacing
 12:34 error Arrow function used ambiguously with a conditional expression no-confusing-arrow
-4:1 error 'noDuplicateImport' import is duplicated no-duplicate-imports
-2:1 error 'moment' import is restricted from being used. Use date-fns or Luxon instead (not both!) no-restricted-imports
 16:3 error Useless constructor no-useless-constructor
-5:10 error Import a unnecessarily renamed no-useless-rename
 19:1 error Unexpected var, use let or const instead no-var
 22:21 error Expected property shorthand object-shorthand
 25:17 error Unexpected function expression prefer-arrow-callback
@@ -22,3 +19,6 @@
 44:28 error Unexpected space(s) after '${' template-curly-spacing
 49:9 error Unexpected space before * yield-star-spacing
 49:9 error Missing space after * yield-star-spacing
+2:1 error 'moment' import is restricted from being used. Use date-fns or Luxon instead (not both!) no-restricted-imports
+4:1 error 'noDuplicateImport' import is duplicated no-duplicate-imports
+5:10 error Import a unnecessarily renamed no-useless-rename

@@ -1,3 +1,3 @@
 
-const foo = true; // eslint-disable-line no-unused-var
+const foo = true; // eslint-disable-line no-unused-vars
 
