@@ -4,21 +4,21 @@ class ForgotGetter {
   set foo(value) {
     this._foo = value;
   }
-}
+} // eslint-disable-line padded-blocks
 
 [1, 2, 3].filter(dontForgetToReturn => { /* empty */ });
 
 function inconsistentReturn(condition) {
   if (condition) {
-      return true;
+    return true;
   } else {
-      return; // eslint-disable-line no-useless-return
+    return; // eslint-disable-line no-useless-return
   }
 }
 
 function inconsistentReturn2(condition) {
   if (condition) {
-      return true;
+    return true;
   }
 }
 
@@ -64,8 +64,8 @@ function movedButForgotToChangeThis() {
 
 const multiSpaces =  1;
 
-const multiLine = "Line 1 \
-Line 2";
+const multiLine = 'Line 1 \
+Line 2';
 
 class NoNewForSideEffects {}
 new NoNewForSideEffects();

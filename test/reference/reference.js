@@ -10,7 +10,7 @@ const { omit, ...someProps } = allProps;
 const usingSomeProps = someProps; // eslint-disable-line no-unused-vars
 /* eslint-disable no-unused-vars */
 
-const acceptsCallback = cb => cb();
+const acceptsCallback = callback => callback();
 acceptsCallback(function namedCallbackToDocumentWhatItDoes() { /* empty */ });
 
 const world = 'world';
@@ -31,10 +31,11 @@ class GetterWithoutSetterIsOk {
   get foo() {
     return 1;
   }
+
 }
 
 const snakeApiResponse = {
-  user_name: 'camelcase rule no problem'
+  user_name: 'camelcase rule no problem',  // eslint-disable-line camelcase
 };
 const userName = snakeApiResponse['user_name'];
 
@@ -80,3 +81,58 @@ Promise.reject({ a: 'It is ok to reject with something other than an Error' });
 (function iife() {
   // no-op
 })();
+
+const array1 = [];
+const array2 = [1];
+const array3 = [1, 2, 3];
+const array4 = [
+  1,
+  2,
+];
+const array5 = [
+  { foo: 1 },
+  { bar: 2 },
+];
+const array6 = [
+  {
+    foo: 1,
+  }, {
+    bar: 2,
+  },
+];
+const array7 = [
+  {
+    foo: 1,
+  },  // not ideal
+  {
+    bar: 2,
+  },
+];
+
+const DOESNT_HAVE_TO_BE_CAMEL_CASE = true;
+
+const danglingComma = [
+  1,
+  2,
+];
+const noDanglingComma = [1, 2];
+
+if (Math.random()) {
+  // empty
+} else if (Math.random()) {
+  // empty
+} else {
+  // empty
+}
+
+const singleLineObjectNewlineOk = {
+  foo: true,
+};
+
+const thinkYourselfAboutPropertyOrder = {
+  name: 'First Name',
+  field: 'firstName',
+  cellTemplate: '',
+};
+
+const anonymousSpacing = function () { /* empty */ };  // eslint-disable-line func-style

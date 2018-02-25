@@ -1,1 +1,26 @@
 2:22 error Missing semicolon semi
+4:22 error Requires a space after '{' block-spacing
+8:4 error Missing trailing comma comma-dangle
+11:32 error Unexpected trailing comma comma-dangle
+13:25 error There should be no space before ',' comma-spacing
+14:25 error A space is required after ',' comma-spacing
+18:4 error ',' should be placed last comma-style
+1:36 error Expected linebreaks to be 'LF' but found 'CRLF' linebreak-style
+2:25 error Expected linebreaks to be 'LF' but found 'CRLF' linebreak-style
+3:28 error Newline required at end of file but not found eol-last
+21:7 error Function name `typpoInName` should match variable name `typoInName` func-name-matching
+24:1 error Expected indentation of 2 spaces but found 4 indent
+25:1 error Expected indentation of 2 spaces but found 1 tab indent
+25:2 error Unexpected tab character no-tabs
+28:26 error Missing space before value for key 'foo' key-spacing
+29:27 error Extra space after key 'foo' key-spacing
+1:1 error Too many blank lines at the beginning of file. Max of 0 allowed no-multiple-empty-lines
+2:7 error 'foo' is assigned a value but never used no-unused-vars
+31:1 error Unexpected negated condition no-negated-condition
+2:18 error Trailing spaces not allowed no-trailing-spaces
+37:20 error A space is required after '{' object-curly-spacing
+37:30 error A space is required before '}' object-curly-spacing
+40:4 error '+' should be placed at the end of the line operator-linebreak
+42:22 error Strings must use singlequote quotes
+44:19 error Missing space before opening brace space-before-blocks
+48:1 error Expected space or tab after '//' in comment spaced-comment

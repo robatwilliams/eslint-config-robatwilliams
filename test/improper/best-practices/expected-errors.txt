@@ -1,5 +1,5 @@
 9:37 error Expected to return a value in arrow function array-callback-return
-15:7 error Function 'inconsistentReturn' expected a return value consistent-return
+15:5 error Function 'inconsistentReturn' expected a return value consistent-return
 19:10 error Expected to return a value at the end of function 'inconsistentReturn2' consistent-return
 26:1 error Expected { after 'if' condition curly
 29:1 error Expected a default case default-case

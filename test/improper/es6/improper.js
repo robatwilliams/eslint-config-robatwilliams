@@ -14,15 +14,15 @@ const isItAComparisonOrALambda = a => Math.random() ? 2 : 3;
 class UselessConstructor {
 
   constructor() {}
-}
+} // eslint-disable-line padded-blocks
 
 var dontUseVar = 1;
 
 const foo = 1;
 const shorthand = { foo: foo };
 
-const acceptsCallback = cb => cb();
-acceptsCallback(function () {});
+const acceptsCallback = callback => callback(); // use arrow or named function, not anonymous function
+acceptsCallback(function () {});  // eslint-disable-line func-names
 
 let preferConst = 1;
 
