@@ -19,6 +19,7 @@
 44:19 error Missing space before opening brace space-before-blocks
 48:1 error Expected space or tab after '//' in comment spaced-comment
 1:1 error Too many blank lines at the beginning of file. Max of 0 allowed no-multiple-empty-lines
+3:1 error Too many blank lines at the end of file. Max of 0 allowed no-multiple-empty-lines
 1:36 error Expected linebreaks to be 'LF' but found 'CRLF' linebreak-style
 2:25 error Expected linebreaks to be 'LF' but found 'CRLF' linebreak-style
 3:28 error Newline required at end of file but not found eol-last
