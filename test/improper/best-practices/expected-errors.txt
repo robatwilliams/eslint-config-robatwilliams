@@ -1,0 +1,24 @@
+9:37 error Expected to return a value in arrow function array-callback-return
+15:7 error Function 'inconsistentReturn' expected a return value consistent-return
+19:10 error Expected to return a value at the end of function 'inconsistentReturn2' consistent-return
+26:1 error Expected { after 'if' condition curly
+29:1 error Expected a default case default-case
+35:10 error Expected dot to be on same line as property dot-location
+36:21 error Expected dot to be on same line as property dot-location
+40:46 error ["useDotNotation"] is better written in dot notation dot-notation
+42:38 error Expected '===' and instead saw '==' eqeqeq
+43:47 error Expected '==' and instead saw '===' eqeqeq
+46:1 error The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype guard-for-in
+50:1 error Unexpected alert no-alert
+52:31 error Unexpected empty arrow function no-empty-function
+54:1 error Array prototype is read only, properties should not be added no-extend-native
+56:27 error A leading decimal point can be confused with a dot no-floating-decimal
+57:28 error A trailing decimal point can be confused with a dot no-floating-decimal
+59:35 error use `Number('5')` instead no-implicit-coercion
+62:3 error Unexpected 'this' no-invalid-this
+65:22 error Multiple spaces found before '1' no-multi-spaces
+67:19 error Multiline support is limited to browsers supporting ES5 only no-multi-str
+71:1 error Do not use 'new' for side effects no-new
+78:1 error Expected an assignment or function call and instead saw an expression no-unused-expressions
+80:26 error Redundant radix parameter radix
+82:1 error Async function 'doesntNeedToBeAsync' has no 'await' expression require-await

@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars, no-empty-function */
 const unnecessary = x => { return x; };
 const unnecessary2 = x => { return { a: x }; };
 

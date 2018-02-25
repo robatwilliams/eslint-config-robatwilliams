@@ -6,6 +6,7 @@ function test {
   sh $scriptPath/test.sh $1
 }
 
+test best-practices/ && \
 test es6/ && \
 test possible-errors/ && \
 test strict-mode/ && \

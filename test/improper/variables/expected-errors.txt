@@ -2,6 +2,6 @@
 9:7 error Shadowing of global property 'NaN' no-shadow-restricted-names
 11:5 error It's not necessary to initialize 'pointlessInit' to undefined no-undef-init
 13:22 error 'definedSecond' was used before it was defined no-use-before-define
-16:5 error 'NotHoisted' was used before it was defined no-use-before-define
+16:24 error 'NotHoisted' was used before it was defined no-use-before-define
 20:18 error Unexpected use of 'event'. Use local parameter instead no-restricted-globals
 24:41 error 'unused' is defined but never used no-unused-vars

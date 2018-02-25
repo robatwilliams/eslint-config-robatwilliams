@@ -13,7 +13,7 @@ let pointlessInit = undefined;  // eslint-disable-line prefer-const
 const definedFirst = definedSecond;
 const definedSecond = true;
 
-new NotHoisted();
+const notHoisted = new NotHoisted();
 class NotHoisted {}
 
 function eventHandler() {
