@@ -1,5 +1,6 @@
 {
+  // Most are not needed or will be warned by webpack
   "rules": {
-    // TODO
+    "import/no-internal-modules": "error"
   }
 }

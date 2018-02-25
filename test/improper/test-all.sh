@@ -12,4 +12,5 @@ test possible-errors/ && \
 test strict-mode/ && \
 test stylistic/ && \
 test variables/ && \
+test plugins/import/static-analysis/ && \
 test plugins/import/style-guide/

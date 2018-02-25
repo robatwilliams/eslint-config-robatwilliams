@@ -1,0 +1,1 @@
+1:21 error Reaching to "./module/foo" is not allowed import/no-internal-modules
