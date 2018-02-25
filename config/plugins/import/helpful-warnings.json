@@ -1,5 +1,7 @@
 {
   "rules": {
-    // TODO
+    "import/export": "error",
+    "import/no-named-as-default": "error",
+    "import/no-extraneous-dependencies": "error"
   }
 }
