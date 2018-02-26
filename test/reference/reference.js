@@ -135,4 +135,5 @@ const thinkYourselfAboutPropertyOrder = {
   cellTemplate: '',
 };
 
-const anonymousSpacing = function () { /* empty */ };  // eslint-disable-line func-style
+let lambdaAssignIsOk = true;
+const assignLambda = () => lambdaAssignIsOk = true;
