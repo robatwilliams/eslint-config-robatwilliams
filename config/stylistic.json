@@ -1,9 +1,7 @@
 {
   // https://eslint.org/docs/rules/#stylistic-issues
   "rules": {
-    "array-bracket-newline": ["error", {
-      "multiline": true
-    }],
+    "array-bracket-newline": ["error", "consistent"],
     "array-bracket-spacing": "error",
     "block-spacing": "error",
     "brace-style": ["error", "1tbs", {

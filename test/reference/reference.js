@@ -137,3 +137,7 @@ const thinkYourselfAboutPropertyOrder = {
 
 let lambdaAssignIsOk = true;
 const assignLambda = () => lambdaAssignIsOk = true;
+
+const singleElementMultilineArray = [
+  'long string, or expecting to add more things later',
+];
