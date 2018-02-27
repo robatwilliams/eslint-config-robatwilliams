@@ -1,7 +1,6 @@
 {
   // https://eslint.org/docs/rules/#ecmascript-6
   "rules": {
-    "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": "error",
     "generator-star-spacing": ["error", "after"],

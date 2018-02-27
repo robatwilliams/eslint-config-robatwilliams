@@ -1,5 +1,3 @@
-2:26 error Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>` arrow-body-style
-3:27 error Unexpected block statement surrounding arrow body; parenthesize the returned value and move it immediately after the `=>` arrow-body-style
 5:22 error Unexpected parentheses around single function argument arrow-parens
 7:21 error Missing space before => arrow-spacing
 8:26 error Missing space after => arrow-spacing

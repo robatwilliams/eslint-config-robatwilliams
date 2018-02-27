@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars, no-empty-function */
-const unnecessary = x => { return x; };
-const unnecessary2 = x => { return { a: x }; };
+const unnecessaryButOk = x => { return x; };
+const unnecessary2ButOk = x => { return { a: x }; };
 
 const unnecessary3 = (x) => x;
 

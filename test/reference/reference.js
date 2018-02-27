@@ -157,3 +157,7 @@ functionTakingAFewParams(
 const ternariesMultiline = Math.random()
   ? 'something long'
   : 'something else long';
+
+const reactComp = () => {
+  return <div>braces because I know I'm going to add more than just immediate return later</div>;
+};
