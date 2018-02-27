@@ -141,3 +141,15 @@ const assignLambda = () => lambdaAssignIsOk = true;
 const singleElementMultilineArray = [
   'long string, or expecting to add more things later',
 ];
+
+const functionTakingAFewParams = (a, b, c, d) => true;
+functionTakingAFewParams(123,
+  'longstring',
+  'long.property.access',
+  'calling.some.long.method()');
+functionTakingAFewParams(
+  123,
+  'longstring',
+  'long.property.access',
+  'calling.some.long.method()'
+);
