@@ -3,7 +3,6 @@
 8:26 error Missing space after => arrow-spacing
 10:10 error Unexpected space before * generator-star-spacing
 10:10 error Missing space after * generator-star-spacing
-12:34 error Arrow function used ambiguously with a conditional expression no-confusing-arrow
 16:3 error Useless constructor no-useless-constructor
 19:1 error Unexpected var, use let or const instead no-var
 22:21 error Expected property shorthand object-shorthand

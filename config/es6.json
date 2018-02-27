@@ -4,7 +4,6 @@
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": "error",
     "generator-star-spacing": ["error", "after"],
-    "no-confusing-arrow": "error",
     "no-duplicate-imports": "error",
     "no-restricted-imports": ["error", {
       "paths":  [{

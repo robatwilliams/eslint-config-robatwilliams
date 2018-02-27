@@ -9,7 +9,7 @@ const badlySpaced2 = x =>x;
 
 function *badlySpacedGenerator() {}
 
-const isItAComparisonOrALambda = a => Math.random() ? 2 : 3;
+const isItAComparisonOrALambda = a => Math.random() ? 2 : 3;  // lambda; most cases are less confusing
 
 class UselessConstructor {
 
