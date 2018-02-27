@@ -153,3 +153,7 @@ functionTakingAFewParams(
   'long.property.access',
   'calling.some.long.method()'
 );
+
+const ternariesMultiline = Math.random()
+  ? 'something long'
+  : 'something else long';
