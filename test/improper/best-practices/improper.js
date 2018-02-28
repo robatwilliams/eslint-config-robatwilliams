@@ -59,7 +59,7 @@ const noFloatingDecimal2 = 1.;
 const dontCoerceNumbersLikeThis = +'5';
 
 function movedButForgotToChangeThis() {
-  this.foo = 1;
+  this.foo = 1; // no-invalid-this would catch this, but class properties issue (use eslint-plugin-babel)
 }
 
 const multiSpaces =  1;

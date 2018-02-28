@@ -165,3 +165,13 @@ const reactComp = () => {
 const someBool = true;
 const arrowsArentThatConfusing = () => someBool ? 10 : 20;
 const arrowsCanSometimesBeConfusing = a => a > 100 ? 'foo' : 'bar';
+
+class ReactComponent {
+
+  // handleClick = e => this.value = e.target.value;  // needs class properties syntax
+
+  render() {
+    return <div onClick={this.handleClick}></div>;
+  }
+
+}

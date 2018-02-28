@@ -15,7 +15,6 @@
 56:27 error A leading decimal point can be confused with a dot no-floating-decimal
 57:28 error A trailing decimal point can be confused with a dot no-floating-decimal
 59:35 error use `Number('5')` instead no-implicit-coercion
-62:3 error Unexpected 'this' no-invalid-this
 65:22 error Multiple spaces found before '1' no-multi-spaces
 67:19 error Multiline support is limited to browsers supporting ES5 only no-multi-str
 71:1 error Do not use 'new' for side effects no-new

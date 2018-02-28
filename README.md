@@ -12,6 +12,7 @@ The tests are not comprehensive - removing or changing a rule won't necessarily 
 * [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 
 ## Backlog
+* [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel)
 * [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 * [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 

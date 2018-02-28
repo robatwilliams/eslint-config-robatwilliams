@@ -24,7 +24,6 @@
     }],
     "no-implicit-globals": "error",
     "no-implied-eval": "error",
-    "no-invalid-this": "error",
     "no-labels": "error",
     "no-multi-spaces": ["error", {
       "ignoreEOLComments": true
